@@ -5,6 +5,9 @@
 : root {
   --background: #0a0a0a;
   --foreground: #ededed;
+  --primary: #F08080;
+  --primary-dark: #E56B6B;
+  --primary-light: #FFA5A5;
 }
 
 body {
