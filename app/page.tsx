@@ -1,6 +1,5 @@
 import StaffGrid from '@/components/StaffGrid';
 import DiscordButton from '@/components/DiscordButton';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -8,16 +7,6 @@ export default function Home() {
       <div className="container mx-auto px-4 py-12">
         {/* Header Section */}
         <div className="text-center mb-12">
-          {/* Logo */}
-          <div className="mb-6 flex justify-center">
-            <Image
-              src="/logo.png"
-              alt="Vexira Customs Logo"
-              width={150}
-              height={150}
-              className="object-contain"
-            />
-          </div>
           <h1 className="text-5xl font-bold text-white mb-4">
             Vexira Customs <span className="text-primary">Staff</span>
           </h1>
