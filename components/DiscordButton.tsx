@@ -7,7 +7,7 @@ export default function DiscordButton() {
       href={discordInviteUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 bg-[#F08080] hover:bg-[#E56B6B] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#F08080]/50"
+      className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-primary/50"
     >
       <svg
         className="w-6 h-6"

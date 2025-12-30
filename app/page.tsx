@@ -19,7 +19,7 @@ export default function Home() {
             />
           </div>
           <h1 className="text-5xl font-bold text-white mb-4">
-            Vexira Customs <span className="text-[#F08080]">Staff</span>
+            Vexira Customs <span className="text-primary">Staff</span>
           </h1>
           <p className="text-gray-300 text-lg mb-8">
             Meet our talented team of professionals
