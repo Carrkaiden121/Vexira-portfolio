@@ -11,6 +11,19 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "#F08080",
+          dark: "#E56B6B",
+          light: "#FFA5A5",
+        },
+        vexira: {
+          coral: "#F08080",
+          "coral-dark": "#E56B6B",
+          "coral-light": "#FFA5A5",
+          "graphics-pink": "#FF8C94",
+          "els-pink": "#F5A3A3",
+          "clothing-pink": "#E97979",
+        },
       },
     },
   },

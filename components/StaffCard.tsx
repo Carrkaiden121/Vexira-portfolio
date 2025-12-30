@@ -7,17 +7,17 @@ interface StaffCardProps {
 
 // Role tag colors
 const roleColors:  Record<string, string> = {
-  Discord: 'bg-indigo-600',
-  Livery: 'bg-blue-600',
-  Uniforms: 'bg-green-600',
-  Graphics: 'bg-purple-600',
-  ELS: 'bg-yellow-600',
-  Clothing: 'bg-pink-600',
+  Discord: 'bg-[#F08080]',
+  Livery: 'bg-[#E56B6B]',
+  Uniforms: 'bg-[#FFA5A5]',
+  Graphics: 'bg-[#FF8C94]',
+  ELS: 'bg-[#F5A3A3]',
+  Clothing: 'bg-[#E97979]',
 };
 
 export default function StaffCard({ staff }:  StaffCardProps) {
   return (
-    <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+    <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-[#F08080]/20 transition-all duration-300 transform hover:-translate-y-2 border border-gray-700 hover:border-[#F08080]">
       {/* Profile Picture */}
       <div className="relative h-48 bg-gradient-to-br from-gray-700 to-gray-900">
         <Image
